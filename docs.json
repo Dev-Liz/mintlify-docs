@@ -1,127 +1,139 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
+  "name": "Saros Docs",
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/logo-dark.svg",
+    "light": "/logo/logo-light.svg",
+    "href": "https://saros.xyz/"
+  },
+
+  "favicon": "/favicon.svg",
+  "theme": "linden",
+
+  "colors": {
+    "primary": "#6946E2",
+    "light": "#6946E2",
+    "dark": "#6946E2"
+  },
+  "background": {
+    "decoration": "grid"  
+  },
+  "appearance": {
+    "default": "dark"
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Socials",
+        "href": "https://x.com/saros_xyz",
+        "icon": "x-twitter"
+      },
+      {
+        "label": "Github",
+        "href": "https://github.com/saros-xyz",
+        "icon": "github"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Support",
+      "href": "https://t.me/+DLLPYFzvTzJmNTJh"
     }
   },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
+  "navigation": {
+    "versions": [
+      {
+        "version": "v1.0.0"
+      },
+      {
+        "name": "v1.0.0",
+        "path": "https://docs.saros.xyz/"
+      },
+      {
+        "name": "v0.9.0",
+        "path": "/"
+      }
+    ],
+    "languages": [
+      {
+        "language": "en"
+      },
+      {
+        "name": "English",
+        "code": "en"
+      },
+      {
+        "name": "korean",
+        "code": "ko"
+      }
+    ],
+    "tabs": [
+      {
+        "tab": "Home",
+        "pages": [
+         "/index"
+        ]
+      },
+      {
+        "tab": "Introduction",
+        "pages": [
+         "introduction/saros-intro"
+        ]
+      },
+      {
+        "tab": "SDKs",
+             "groups": [
+      {
+        "group": "Saros SDks",
+        "pages": [
+          "SDK/sdk-overview"
+        ]
+      },
+      {
+        "group": "[TS] AMM SDK",
+        "pages": [
+          "SDK/TS/AMM/overview",
+          "SDK/TS/AMM/getting-started"
+        ]
+      },
+      {
+        "group": "[TS] Stake SDK",
+        "pages": [
+          "SDK/TS/Stake/overview",
+          "SDK/TS/Stake/getting-started"        
+        ]
+      },
+      {
+        "group": "[TS] Farm SDK",
+        "pages": [
+          "SDK/TS/Farm/overview",
+          "SDK/TS/Farm/getting-started"        
+        ]
+      },
+      {
+        "group": "[TS] DLMM SDK",
+        "pages": [
+          "SDK/TS/DLMM/overview",
+          "SDK/TS/DLMM/getting-started"        
+        ]
+      },
+      {
+        "group": "[Rust] DLMM SDK",
+        "pages": [
+          "SDK/Rust/DLMM/overview",
+          "SDK/Rust/DLMM/getting-started"        
+        ]
+      }
+    ]
+      },
+        {
+        "tab": "API Reference",
+        "pages": [
+         "guide/changelog"
+        ]
+      }
+    ]
   }
-}
+  }
+
+  

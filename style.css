@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+
+.intro-content {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    margin: 0 auto;
+
+}
+
+.intro-content h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.intro-content p {
+    font-size: 28px;
+    font-weight: 500;
+}

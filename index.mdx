@@ -1,97 +1,76 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: Introduction
+description: 'Welcome to Saros Developer Documentation'
+mode: "custom"
 ---
 
-## Setting up
+import Styles from '/style.css';
 
-Get your documentation site up and running in minutes.
 
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
+<img
+  className="block dark:hidden bg-cover bg-center w-full h-40 md:h-6 -z-10 opacity-80"
+  src="/images/saros-cover.jpg"
+  alt="Hero image"
+  width="100%"
+/>
 
-## Make it yours
+<img
+  className="hidden dark:block bg-cover bg-center w-full h-40 md:h-64 -z-10 opacity-50"
+  src="/images/saros-cover.jpg"
+  alt="Hero image"
+  width="100%"
+/>
 
-Design a docs site that looks great and empowers your users.
+<div className="intro-content top-0%">
+  <h1 className=' text-[#100a25] dark:text-[#fff]'>
+  Welcome To The Developer Hub and Documentation for Saros
+  </h1>
+</div>
 
-<Columns cols={2}>
+
+
+<CardGroup cols={3} className="p-6 intro-cards w-full md:w-[50%] mx-auto" >
   <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
+    title="Introduction"
+    icon="Book"
+    href="https://devliz.mintlify.app/api-reference/conceptual/introduction"
   >
-    Edit your docs locally and preview them in real time.
-  </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
-  </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
+    Overview and use cases of TMDB API
   </Card>
   <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
+    title="Obtain API key"
+    icon="key"
+    href="https://devliz.mintlify.app/api-reference/conceptual/obtain-key"
   >
-    Auto-generate API documentation from OpenAPI specifications.
-  </Card>
-</Columns>
-
-## Create beautiful pages
-
-Everything you need to create world-class documentation.
-
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
+    Learn how to access your API key
   </Card>
   <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
+    title="Authentication"
+    icon="shield"
+    href="https://devliz.mintlify.app/api-reference/conceptual/authentication"
   >
-    Add sample code to demonstrate how to use your product.
+    Learn how to access our API reference with your key
   </Card>
   <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
+    title="Endpoints Overview"
+    icon="crosshairs"
+    href="https://devliz.mintlify.app/api-reference/conceptual/endpoint-overview"
   >
-    Display images and other media.
+    View all our endpoints in one place
   </Card>
   <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
+    title="Errors & Rate Limits"
+    icon="triangle-exclamation"
+    href="https://devliz.mintlify.app/api-reference/conceptual/errors-ratelimits"
   >
-    Write once and reuse across your docs.
+   View error codes and details
   </Card>
-</Columns>
+  <Card
+    title="FAQs"
+    icon="block-question"
+    href="https://devliz.mintlify.app/quick-reference/faq"
+  >
+    All your questions answered in one place
+  </Card>
+</CardGroup>
 
-## Need inspiration?
-
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
